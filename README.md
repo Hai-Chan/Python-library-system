@@ -6,9 +6,9 @@
 
 # Key Technical Features
 
-• Virtual Environments (venv): Dependencies and execution environments are completely isolated, an optional choice for user
-• Core OOP Blueprinting: Zero linear script processing, cleanly works with lowest time complexity.
-• File I/O & Error Catching: Uses native json data streaming combined with defensive programming to catch missing data stores gracefully without system failure.
+ - Virtual Environments (venv): Dependencies and execution environments are completely isolated, an optional choice for user
+ - Core OOP Blueprinting: Zero linear script processing, cleanly works with lowest time complexity.
+ - File I/O & Error Catching: Uses native json data streaming combined with defensive programming to catch missing data stores gracefully without system failure.
 
 # Installation & Setup
 
@@ -50,8 +50,8 @@ When you initialize the application, you can easily control your workspace via a
 # Project architecture
 ```text
 ├── .venv/                  # Isolated Python environment
-├── .gitignore		    # Gitignore cache
-├── README.md		    # Instructions
+├── .gitignore			# Gitignore cache
+├── README.md			# Instructions
 ├── book.py                 # Defines the Book data structure & representations
 ├── library.py              # Manages lists of Book objects, validation, and JSON I/O
 └── main.py                 # Direct entry point containing the loop-driven CLI Menu
